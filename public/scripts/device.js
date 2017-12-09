@@ -5,7 +5,7 @@ u('body').on('click', '.action', ({ target }) => {
 
 	const options = {
 		method: 'POST',
-		body: { iface, action }
+		body: { interface: iface, action }
 	};
 
 	ajax('/', options);
