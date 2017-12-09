@@ -1,0 +1,34 @@
+{
+  "name": "teeth",
+  "version": "0.0.0",
+  "description": "Bluetooth AVRCP manager",
+  "main": "index.js",
+  "bin": {
+    "api": "bin/api.js"
+  },
+  "scripts": {
+    "start": "bin/api.js",
+    "watch": "nodemon bin/api.js"
+  },
+  "keywords": [
+    "avrcp",
+    "bluetooth",
+    "dbus"
+  ],
+  "author": "Ross Hadden",
+  "license": "ISC",
+  "dependencies": {
+    "dbus": "^1.0.2",
+    "handlebars": "^4.0.11",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.3.0",
+    "koa-session": "^5.5.1",
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.3",
+    "umbrellajs": "^2.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
