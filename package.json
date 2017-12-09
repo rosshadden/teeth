@@ -1,7 +1,7 @@
 {
   "name": "teeth",
   "version": "0.0.0",
-  "description": "Bluetooth AVRCP manager",
+  "description": "Bluetooth AVRCP interface.",
   "main": "index.js",
   "bin": {
     "api": "bin/api.js"
