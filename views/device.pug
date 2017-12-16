@@ -1,0 +1,32 @@
+extends layout.pug
+
+block body
+	h1 #{device}
+
+	div
+		h2 Device
+		ul(class='interface' data-interface='Device1')
+			li
+				button(class='action button is-large is-primary' data-action='Connect') Connect
+				button(class='action button is-large is-warning' data-action='Disconnect') Disconnect
+
+	div
+		h2 Media Control
+		ul(class='interface' data-interface='MediaControl1')
+			li
+				button(class='action button is-large is-primary' data-action='Play') Play
+				button(class='action button is-large is-info' data-action='Pause') Pause
+				button(class='action button is-large is-warning' data-action='Stop') Stop
+			li
+				button(class='action button is-large' data-action='Previous') Previous
+				button(class='action button is-large' data-action='Next') Next
+			li
+				button(class='action button is-large' data-action='Rewind') Rewind
+				button(class='action button is-large' data-action='FastForward') FastForward
+
+	div
+		a(href="/") back
+
+block scripts
+	script(src="/vendor/umbrella.min.js")
+	script(src="/scripts/device.js")

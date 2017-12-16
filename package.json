@@ -18,14 +18,16 @@
   "author": "Ross Hadden",
   "license": "ISC",
   "dependencies": {
+    "bulma": "^0.6.1",
     "dbus": "^1.0.2",
-    "handlebars": "^4.0.11",
+    "font-awesome": "^4.7.0",
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.3.0",
     "koa-session": "^5.5.1",
     "koa-static": "^4.0.2",
     "koa-views": "^6.1.3",
+    "pug": "^2.0.0-rc.4",
     "umbrellajs": "^2.9.0"
   },
   "devDependencies": {
